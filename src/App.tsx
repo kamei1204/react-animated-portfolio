@@ -3,7 +3,7 @@ import "./App.scss"
 function App() {
   return (
     <div>
-      <section><a href="/">Hero</a></section>
+      <section><a href="/">HeroArea</a></section>
       <section>Parallax</section>
       <section>Services</section>
       <section>Parallax2</section>
