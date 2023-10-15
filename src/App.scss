@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  //ボックスのサイズを、ボーダーを含めたサイズにする
+  font-family: "DM Sans", sans-serif;
+
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  //縦方向にスクロールするときに、スナップするようにする
+  scroll-behavior: smooth;
+  //スクロールの動きを滑らかにする
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+section {
+  height: 100svh;
+  //画面の高さを100%にする.dvhとは、画面の高さを100%にするという意味
+  scroll-snap-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  //親要素の色を継承する
+}
